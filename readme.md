@@ -11,8 +11,7 @@ https://proceedings.mlr.press/v202/yao23a.html
 
 
 
-+++++environment configuration++++++
-
++ environment configuration
 
 The code is only tested on Linux Linux-based system (Ubuntu 20.04). 
 The Python version is 3.6.9. The Pytorh version is 1.2.0 with GPU acceleration. 
@@ -23,24 +22,29 @@ To avoid errors caused by inconsistent environments, you are encouraged to run o
 
 For cifar10, the clustering method used is SPICE. We use the pre-trained model SPICE-Self*. The model and source code are downloaded via (https://github.com/niuchuangnn/SPICE)
 
-+++++quick start++++++
++ quick start
 
 sudo chmod 755 *.sh
 
 #########run xyguassian dataset################
+
 ./run_yxguassain.sh
 
 #########run yxguassian dataset################
+
 ./run_yxguassain.sh
 
 #########run other uci datasets################
+
 ./run_uci.sh
 
 #########run mnist################
+
 ./run_mnist.sh
 
 
 #########run cifar10################
+
 ./run_cifar10.sh
 
 
