@@ -1,14 +1,27 @@
+
+<div align="center">   
+  
+# Which is Better for Learning with Noisy Labels: The Semi-supervised Method or Modeling Label Noise? 
+[![Paper](https://img.shields.io/badge/ICML2023-green)](https://proceedings.mlr.press/v202/yao23a.html)
+
+</div>
+
+https://proceedings.mlr.press/v202/yao23a.html
+
+
+
+
 +++++environment configuration++++++
 
 
-The code is only tested on Linux based System (Ubuntu 20.04). 
-The python version is 3.6.9. The pytorh version is 1.2.0 with GPU acceleration. 
+The code is only tested on Linux Linux-based system (Ubuntu 20.04). 
+The Python version is 3.6.9. The Pytorh version is 1.2.0 with GPU acceleration. 
 
-It is unknown that if the code is compatible on windows or different versions of pytorh and python. 
+It is unknown if the code is compatible on Windows or different versions of Pytorh and Python. 
 We have not tested to run our code in a CPU environment. 
-To avoid errors caused by inconsistent environment, you are encouraged to run our code under a same environment.
+To avoid errors caused by inconsistent environments, you are encouraged to run our code under the same environment.
 
-For cifar10, the clustering method used is SPICE. We use the pretrained model SPICE-Self*. The model and source code are downloaded via (https://github.com/niuchuangnn/SPICE)
+For cifar10, the clustering method used is SPICE. We use the pre-trained model SPICE-Self*. The model and source code are downloaded via (https://github.com/niuchuangnn/SPICE)
 
 +++++quick start++++++
 
